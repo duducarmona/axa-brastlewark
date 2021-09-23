@@ -2,6 +2,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import { getAllBrastlewark } from './services/apiClient';
 import Searcher from './components/Searcher';
+import Header from './components/Header';
 
 function App() {
 	const [brastlewark, setBrastlewark] = useState([]);
@@ -27,19 +28,28 @@ function App() {
 		);
 
 		return filteredList.map((gnome, index) => {
-			return <li key={index}>{gnome.name}</li>;
+			const { name, thumbnail } = gnome;
+
+			return (
+				<li key={index} className="App-item">
+					<h2>{name}</h2>
+					<img src={thumbnail} alt={name} className='character-image' />
+				</li>
+			);
 		});
 	};
 
-  const handleSearch = textToFilter => {
-    setFilterGnomesBy(textToFilter);
-  };
+	const handleSearch = textToFilter => {
+		setFilterGnomesBy(textToFilter);
+	};
 
 	return (
 		<div className="App">
-			<h1>Brastlewark</h1>
-      <Searcher setFilterGnomes={handleSearch} />
-			<ul>{renderList()}</ul>
+      <Header />
+			<div className="wrapper">
+				<Searcher setFilterGnomes={handleSearch} />
+				<ul className="list-no-decoration">{renderList()}</ul>
+			</div>
 		</div>
 	);
 }
