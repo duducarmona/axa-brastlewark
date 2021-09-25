@@ -11,3 +11,21 @@
   justify-content: center;
   color: white;
 }
+
+.arrow-icon-container {
+  position: absolute;
+  left: 13px;
+  top: 13px;
+}
+
+.arrow-icon {
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  background-color: #61a0e4;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
