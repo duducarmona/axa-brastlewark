@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Brastlewark App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The project is an app to display the data of Brastlewark's inhabitants.
 
-In the project directory, you can run:
+## Motivation
 
-### `yarn start`
+The motivation is caused by the difficulty of meeting the inhabitants of Brastlewark because they are too busy working or fighting orcs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## User Stories
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Gnomes – list** - As a user I want to see all the Brastlewark inhabitants so that I can know the details of each one. The user can filter by the gnome name.
 
-### `yarn test`
+**Gnome – detail** - As a user, I want to see the details of the gnome and its characteristics. From this view, the user can go back to the gnomes list by the arrow in the top-left corner.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to start the app
 
-### `yarn build`
+- Clone the project from Github (https://github.com/duducarmona/axa-brastlewark).
+- Run 'npm run start' in the root directory of the project.
+- For a correct display, in Chrome, open 'Inspect' and select the view for iPhone 6/7/8.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Backlog
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+List of other features outside of the MVPs scope
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Sort list:** Sort the gnome list alphabetically by name.
 
-### `yarn eject`
+**Filter list:** Let filter the list not only by the name, also by kind of work or friends in common, for example.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Tests:** Add tests.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**CRUD:** Find a way to develop a CRUD to show more programming skills.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**UI:** Improve the user interface (especially the desktop view).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Responsive:** Do it responsive.
 
-## Learn More
+## Links
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://github.com/duducarmona/axa-brastlewark
